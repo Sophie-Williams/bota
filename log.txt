@@ -1,0 +1,18 @@
+bla bla 
+bla bla 
+bla bla 
+bla bla 
+bla bla 
+bla bla 
+
+[ERR] 1this is error
+[ERR] 1this is error
+[ERR] 1this is error
+[TEXT] TEXT
+[ERR] 1this is error
+[TEXT] 1 TEXT
+[ERR] code:1 this is error
+[TEXT] code:1 TEXT[BOOT] program is start
+[ERR] code:1 typical error
+[BOOT] program is start
+[ERR] code:1 typical error

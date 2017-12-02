@@ -3,11 +3,11 @@
 ENG
 later
 RU
-Coordinate - класс, который позволяет определить сущность в пространстве.
-Функции:
-returnCoordinateX, returnCoordinateY - возвращают координаты.
-setCoordinateX, setCoordinateY - заменяют координаты
-modifyCoordinateX, modifyCoordinateY, modifyCoordinates - прибавляют значение к координатам
+Coordinate - ГЄГ«Г Г±Г±, ГЄГ®ГІГ®Г°Г»Г© ГЇГ®Г§ГўГ®Г«ГїГҐГІ Г®ГЇГ°ГҐГ¤ГҐГ«ГЁГІГј Г±ГіГ№Г­Г®Г±ГІГј Гў ГЇГ°Г®Г±ГІГ°Г Г­Г±ГІГўГҐ.
+Г”ГіГ­ГЄГ¶ГЁГЁ:
+returnCoordinateX, returnCoordinateY - ГўГ®Г§ГўГ°Г Г№Г ГѕГІ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ».
+setCoordinateX, setCoordinateY - Г§Г Г¬ГҐГ­ГїГѕГІ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ»
+modifyCoordinateX, modifyCoordinateY, modifyCoordinates - ГЇГ°ГЁГЎГ ГўГ«ГїГѕГІ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬
 */
 class Coordinate
 {

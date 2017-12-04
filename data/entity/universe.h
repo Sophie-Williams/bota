@@ -1,14 +1,16 @@
 #pragma once
-class Universe:
-	public CollectionWorld,
-	public CollectionCreature,
-	public CollectionItem,
-	public CollectionMap,
-	public CollectionObject
+class Universe
 {
 public:
+	Universe(){}
+	~Universe(){}
 
+	int getGlobalInfo();
 private:
-
-
+	std::vector <World> worldList;
 };
+
+int Universe::getGlobalInfo()
+{
+	return NULL;
+}

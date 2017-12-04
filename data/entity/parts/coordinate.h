@@ -3,11 +3,11 @@
 ENG
 later
 RU
-Coordinate - êëàññ, êîòîðûé ïîçâîëÿåò îïðåäåëèòü ñóùíîñòü â ïðîñòðàíñòâå.
-Ôóíêöèè:
-returnCoordinateX, returnCoordinateY - âîçâðàùàþò êîîðäèíàòû.
-setCoordinateX, setCoordinateY - çàìåíÿþò êîîðäèíàòû
-modifyCoordinateX, modifyCoordinateY, modifyCoordinates - ïðèáàâëÿþò çíà÷åíèå ê êîîðäèíàòàì
+Coordinate - класс, который позволяет определить сущность в пространстве.
+Функции:
+returnCoordinateX, returnCoordinateY - возвращают координаты.
+setCoordinateX, setCoordinateY - заменяют координаты
+modifyCoordinateX, modifyCoordinateY, modifyCoordinates - прибавляют значение к координатам
 */
 class Coordinate
 {
@@ -25,11 +25,11 @@ private:
 };
 int Coordinate::returnCoordinateX()
 {
-	return NULL;
+	return x; 
 }
 int Coordinate::returnCoordinateY()
 {
-	return NULL;
+	return y;
 }
 int Coordinate::setCoordinateX(int set)
 {

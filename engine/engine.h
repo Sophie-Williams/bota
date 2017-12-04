@@ -3,23 +3,23 @@
 ENG
 soon
 RU
-Engine - îñíîâíàÿ ÷àñòü ïðîãðàììû. Â íà÷àëå èíèöèàëèçèðóåòñÿ áàçîâûå ïàðàìåòðû, 
+Engine - основная часть программы. В начале инициализируется базовые параметры, 
 */
 
-int universeInterface(Universe targetUniverse)
-{
-	std::cout
-		<< "\n universeInterface:"
-		<< "\n > Worlds: " << targetUniverse.getWorldCount()
-		<< targetUniverse.getCreatureCount();
-	return NULL;
-}
+
+
 
 int engine()
 {
-	std::thread wndThread(openGLlaunch);						// define openGL to thread
-	Universe universe;											// univers class init
+		coreLoopStatus		= true,								// status for
+		renderLoopStatus	= true,								// while() loop
+		inputLoopStatus		= true;
 
-	universeInterface(universe);
+	Universe universe;											// univers class init
+	std::thread wndThread(openGLlaunch);						// define openGL to thread
+	std::thread inputThread(input);								// there are three threads:
+																// Graphic, input and main thread -
+	coreLoop(universe);													// core (game) loop.
+
 	return NULL;
 }

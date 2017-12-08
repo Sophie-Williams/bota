@@ -1,0 +1,16 @@
+- add Engine class with methods:
+int universeCompute();
+int universeLoop();
+int worldLayerCompute();
+int worldLayerLoop();
+int creatureLoop();
+int itemLoop();
+int objectLoop();
+int effectLoop();
+logicLayer();
+pysicRegistrationAdd();
+physicSimulation();
+physicClearRegistration();
+
+compute - methods for do some specific actions with classes (universe/world/entity)
+Loop - methods for create loop for
